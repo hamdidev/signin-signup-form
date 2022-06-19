@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- Remix Icons -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar nav-flex">
+        <a href="index.html" class="">
+          <div class="logoImg">
+            <img src="/images/logo.png" class="logoImg" alt="" />
+          </div>
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item signup">
+            <a href="register.html" class="nav-link btnSignup signup"
+              >Register</a
+            >
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <div class="heading container">
+        <h1>
+          Share your new and live moments <br />
+          with your friends
+        </h1>
+      </div>
+
+      <div class="header-imgs container">
+        <div class="left">
+          <div class="h-img">
+            <img src="./images/h-girl.jpeg" alt="Happy Girl" />
+          </div>
+          <div class="c-img">
+            <img src="./images/coding.webp" alt="Coding" />
+          </div>
+          <div class="s-img">
+            <img src="./images/side-face.webp" alt="Side face" />
+          </div>
+        </div>
+        <div class="right">
+          <div class="a-img">
+            <img src="./images/avatar.png" alt="Happy Girl" />
+          </div>
+          <div class="b-img">
+            <img src="./images/avatar.png" alt="Coding" />
+          </div>
+          <div class="d-img">
+            <img src="./images/social.png" alt="Side face" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="login-form container">
+      <div class="form">
+        <form>
+          <h3 class="login-heading">Log In</h3>
+          <label for="username"> Username </label>
+          <input type="text" id="username" />
+          <label for="password">Password </label>
+          <p class="pass">
+            <input type="password" id="password" name="password" />
+            <i class="bi bi-eye-slash" id="togglePassword"></i>
+          </p>
+          <a href="#">
+            <p class="forget">Forgot Password?</p>
+          </a>
+
+          <button class="loginBtn">Log In</button>
+          <div class="or">
+            <p>Or Log in with:</p>
+          </div>
+          <div class="social-boxes">
+            <button class="social-btn" role="button">
+              <i class="ri-facebook-line"></i>
+            </button>
+            <button class="social-btn g-btn" role="button">
+              <i class="ri-google-line"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="remain-social">
+      <div class="container">
+        <div class="heading">
+          <h1>Remain Social and simple</h1>
+        </div>
+        <div class="grid-container">
+          <div class="content">
+            <h3>Time to be Social, Go social</h3>
+            <p>
+              we can connect you to the world of million people. Let's connect
+            </p>
+            <div class="icon">
+              <i class="ri ri-team-line icon-team"></i>
+            </div>
+          </div>
+
+          <div class="content">
+            <h3 class="first">Find your true space</h3>
+            <p>Feel the unmatchable experience we create</p>
+            <div class="icon">
+              <i class="ri ri-checkbox-circle-line icon-check"></i>
+            </div>
+          </div>
+
+          <div class="content">
+            <h3 class="first">Sharing your Vision</h3>
+            <p>Dream big! Be Artistic, Be creative and Let'S Engage</p>
+            <div class="icon">
+              <i class="ri ri-eye-line icon-eye"></i>
+            </div>
+          </div>
+
+          <div class="content">
+            <h3>Let's WOW your online presence</h3>
+            <p>Let's help you improve your Online life.</p>
+            <div class="icon">
+              <i class="ri ri-gift-line icon-gift"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer container">
+      <ul class="footer-list">
+        <li class="first-item"><a href="#">&copy;2022 Wowonder Theme</a></li>
+        <li class="footer-items"><a href="#">Terms of Use</a></li>
+        <li class="footer-items"><a href="#">Privacy Policy</a></li>
+        <li class="footer-items"><a href="#">Contact Us</a></li>
+        <li class="footer-items"><a href="#">About</a></li>
+        <li class="footer-items"><a href="#">Blog</a></li>
+        <li class="footer-items">
+          <a class="lang" href="#">
+            <i class="ri ri-translate-2"></i>
+            <span class="lang-footer"> Language</span></a
+          >
+        </li>
+      </ul>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
