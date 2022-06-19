@@ -597,6 +597,9 @@ form a {
   form {
     width: 370px;
   }
+  .icon {
+    display: none;
+  }
   .loginBtn {
     left: 4%;
   }
