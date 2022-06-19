@@ -716,7 +716,7 @@ form a {
     font-size: clamp(2.5rem, 6vw, 3.2rem) !important;
   }
   form {
-    top: 78% !important;
+    top: 77% !important;
     width: 459px !important;
   }
   .loginBtn {
@@ -855,7 +855,7 @@ form a {
     top: -35px;
   }
 }
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
   form {
     top: 66% !important;
   }
@@ -865,4 +865,4 @@ form a {
   form {
     top: 66% !important;
   }
-}
+} */
