@@ -668,8 +668,6 @@ form a {
     /* display: none; */
     width: 300px !important;
     margin-top: 100px;
-    /* padding: 5px; */
-    left: 65%;
   }
   .header-imgs .right {
     display: none;
@@ -755,6 +753,9 @@ form a {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+  }
+  form {
+    left: 50%;
   }
   .content {
     margin-top: 0px;
