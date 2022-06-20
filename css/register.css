@@ -764,7 +764,7 @@ form a {
     left: 34px;
   }
   .remain-social {
-    margin-top: 459px;
+    margin-top: 459px !important;
     
   }
   .grid-container {
