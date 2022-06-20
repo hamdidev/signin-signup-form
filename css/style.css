@@ -668,7 +668,8 @@ form a {
     /* display: none; */
     width: 300px !important;
     margin-top: 100px;
-    padding: 5px;
+    /* padding: 5px; */
+    left: 65%;
   }
   .header-imgs .right {
     display: none;
