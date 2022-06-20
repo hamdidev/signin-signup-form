@@ -681,15 +681,15 @@ form a {
     margin-top: 20px;
   }
   .loginBtn {
-    width: 297px !important;
+    width: 256px !important;
 
     left: 7% !important;
   }
   .or {
-    left: 119px !important;
+    left: 97px !important;
   }
   .social-boxes {
-    left: 51px !important;
+    left: 21px !important;
   }
   .remain-social {
     margin-top: 363px;
@@ -730,7 +730,7 @@ form a {
     gap: 0px !important;
   }
   .loginBtn {
-    width: 254px !important;
+    width: 234px !important;
     left: 36px !important;
   }
   .signup {
