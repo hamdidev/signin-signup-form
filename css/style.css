@@ -120,6 +120,7 @@ header {
   font-weight: 500;
   font-size: clamp(1.5rem, 6vw, 2.2rem);
   font-family: "Quicksand", sans-serif;
+  margin-bottom: 10px;
 }
 .header-imgs {
   z-index: 100;
