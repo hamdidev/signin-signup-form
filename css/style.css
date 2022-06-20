@@ -666,8 +666,9 @@ form a {
 @media screen and (max-width: 375px) {
   form {
     /* display: none; */
-    width: 340px !important;
+    width: 300px !important;
     margin-top: 100px;
+    padding: 5px;
   }
   .header-imgs .right {
     display: none;
