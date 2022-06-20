@@ -846,7 +846,7 @@ form a {
     top: 70px;
   }
 }
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
   form {
     top: 67%;
   }
@@ -855,4 +855,4 @@ form a {
   form {
     top: 68%;
   }
-}
+} */
