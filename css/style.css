@@ -746,7 +746,7 @@ form a {
     margin-top: 250px !important;
   }
   form {
-    width: 354px !important;
+    width: 295px;
   }
 }
 @media screen and (max-width: 500px) {
