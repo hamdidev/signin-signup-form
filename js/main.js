@@ -1,3 +1,33 @@
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "30px",
+  duration: 2000,
+  reset: true,
+});
+
+sr.reveal(`.heading`, {
+  interval: 200,
+});
+
+sr.reveal(`form`, {
+  delay: 600,
+  origin: "bottom",
+  distance: "30px",
+});
+
+sr.reveal(`.content`, {
+  delay: 1000,
+  origin: "bottom",
+});
+sr.reveal(`.left`, {
+  delay: 800,
+  origin: "left",
+});
+
+sr.reveal(`.right`, {
+  delay: 1000,
+  origin: "right",
+});
 // Navbar
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
